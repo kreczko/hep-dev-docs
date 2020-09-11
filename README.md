@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Welcone to the High-Energy Physics (Doftware) Development Documentation (HEP-DEV-DOCS)
 
-You can use the [editor on GitHub](https://github.com/kreczko/hep-dev-docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+HEP-DEC-DOCS are hosted on https://kreczko.github.io/hep-dev-docs/ and are meant as an overview to get started with software development in HEP.
+While most HEP software is written for CentOS (6, 7, 8) with a large set of common depenencies, its development, given a set of tools, can happen on almost any Operating System. This documenatation describes how to install this set of tools to simplify the software setup on Windows, Mac OS and Linux machines.
+At the moment of writing, these tools include
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Windows Subsystem for Linux 2 (Windows 10 only) for FUSE support and a Linux environment
+  - Windows Terminal
+- Docker for running CentOS on any OS
+- CVMFS for access to most HEP depenencies via FUSE + HTTP
+- Anaconda for Python environments (recommended for Python-only code)
 
-### Markdown
+Note that depending on the experiment you are on, you might prefer CVMFS installations of compilers and build tools,
+instead of the ones provided by a Docker container or OS.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Windows Subsystem for Linux 2 (Windows 10 only) for FUSE support and a Linux environment
 
-```markdown
-Syntax highlighted code block
+Since the Windows 10 build version 1903 or higher the Windows Subsystem for Linux 2 (WSL 2) is available.
+The most important improvement for HEP is the FUSE support which allows us to mount the global file system, CVMFS.
 
-# Header 1
-## Header 2
-### Header 3
+The installation consists of four parts:
 
-- Bulleted
-- List
+1. Open Powershell with admin rights
 
-1. Numbered
-2. List
+![Open Powershell with admin rights](static/powershell_admin.png)
 
-**Bold** and _Italic_ and `Code` text
+2. Install the Windows Subsystem for Linux:
 
-[Link](url) and ![Image](src)
+```powershell
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kreczko/hep-dev-docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
