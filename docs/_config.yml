@@ -1,0 +1,20 @@
+---
+remote_theme: mmistakes/minimal-mistakes@4.20.2
+# theme: minimal-mistakes-jekyll
+title: High-Energy Physics (Software) Development Documentation
+description: General documentation for HEP software development
+repository: "kreczko/hep-dev-docs"
+layout: single
+classes: wide
+# classes:
+#   - landing
+#   - dark-theme
+#   - wide
+minimal_mistakes_skin: dark
+
+toc: true
+toc_label: HEP-DEV-DOCS
+
+plugins:
+ - jekyll-include-cache
+---
