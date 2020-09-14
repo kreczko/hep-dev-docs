@@ -5,7 +5,7 @@ title: High-Energy Physics (Software) Development Documentation
 description: General documentation for HEP software development
 repository: "kreczko/hep-dev-docs"
 layout: single
-classes: wide
+# classes: wide
 # classes:
 #   - landing
 #   - dark-theme
