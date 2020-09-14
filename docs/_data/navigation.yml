@@ -65,7 +65,7 @@ docs:
       - title: Anaconda Python on Windows
         url: /windows/anaconda
       - title: C++ Development in WSL 2
-        url: /windows/anaconda
+        url: /windows/cpp
   - title: HEP on MacOS
     url: /macos/
     children:
@@ -75,6 +75,8 @@ docs:
         url: /macos/cvmfs
       - title: Anaconda Python on MacOS
         url: /macos/anaconda
+      - title: C++ Development on MacOS
+        url: /macos/cpp
   - title: HEP on Linux
     url: /linux/
     children:
@@ -84,6 +86,8 @@ docs:
         url: /linux/cvmfs
       - title: Anaconda Python on Linux
         url: /linux/anaconda
+      - title: C++ Development on Linux
+        url: /linux/cpp
   - title: Editors and Integrated Development Environments
     url: /editors-and-ides/
     children:

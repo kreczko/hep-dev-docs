@@ -2,8 +2,7 @@
 title: "Windows Subsystem for Linux 2"
 excerpt: "How to install Windows Subsystem for Linux 2 on Windows 10"
 last_modified_at: 2020-09-14
-sidebar:
-  nav: "docs"
+permalink: /windows/wsl/
 ---
 
 Since the Windows 10 build version 1903 or higher the Windows Subsystem for Linux 2 (WSL 2) is available.

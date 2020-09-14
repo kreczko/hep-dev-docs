@@ -5,8 +5,6 @@ excerpt: "How to install Windows Terminal"
 last_modified_at: 2020-09-14
 redirect_from:
   - /windows-terminal/
-sidebar:
-    nav: "docs"
 ---
 
 Windows terminal is a modern terminal application for Windows and includes integrations with WSL.

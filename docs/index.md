@@ -1,18 +1,10 @@
 ---
-sidebar:
-  nav: "docs"
 title: "Overview"
 excerpt: "Overview of HEP-DEV-DOCS"
 last_modified_at: 2020-09-14
 redirect_from:
   - /overview/
-toc: true
-sidebar:
-    nav: "docs"
 ---
-<!-- # Welcome to the High-Energy Physics (Doftware) Development Documentation (HEP-DEV-DOCS) -->
-# Overview
-
 High-Energy Physics (Doftware) Development Documentation (HEP-DEV-DOCS) are hosted on [kreczko.github.io/hep-dev-docs](https://kreczko.github.io/hep-dev-docs/) and are meant as an overview to get started with software development in HEP.
 While most HEP software is written for CentOS (6, 7, 8) with a large set of common depenencies, its development, given the right set of tools, can happen on almost any Operating System. This documenatation describes how to install this set of tools to simplify the software setup on Windows, Mac OS and Linux machines.
 
