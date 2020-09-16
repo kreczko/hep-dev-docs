@@ -31,7 +31,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "main"
 atom_feed:
   path: ""
 
