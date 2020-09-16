@@ -10,4 +10,4 @@ redirect_from:
 Windows terminal is a modern terminal application for Windows and includes integrations with WSL.
 To install it, visit the [MicroSoft Store Page](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) and click on the "Get" button:
 
-![Install Windows Terminal](/static//windows/windows_terminal.png)
+![Install Windows Terminal](../static/windows/windows_terminal.png)

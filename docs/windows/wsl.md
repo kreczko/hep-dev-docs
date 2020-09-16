@@ -13,7 +13,7 @@ The installation consists of four parts:
 
 1. Open Powershell with admin rights:
 
-![Open Powershell with admin rights](/static/windows/powershell_admin_annotated.png)
+![Open Powershell with admin rights](../static/windows/powershell_admin_annotated.png)
 
 2. Install the Windows Subsystem for Linux:
 
