@@ -2,7 +2,7 @@
 title: "Docker on Windows"
 permalink: /windows/docker/
 excerpt: "How to install Docker on Windows"
-last_modified_at: 2020-09-14
+last_modified_at: 2020-10-08
 redirect_from:
   - /windows-docker/
 ---
@@ -27,7 +27,7 @@ Additional installation help as well as OS requirements for the install are deta
 
 **Note**: You will be required to log out of Windows to complete the installation.
 
-## Checking installation
+## Checking the installation
 
 In order to verify, open your Ubuntu WSL 2 terminal and type
 

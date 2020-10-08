@@ -1,7 +1,7 @@
 ---
 title: "Windows Subsystem for Linux 2"
 excerpt: "How to install Windows Subsystem for Linux 2 on Windows 10"
-last_modified_at: 2020-09-14
+last_modified_at: 2020-10-08
 permalink: /windows/wsl/
 ---
 
