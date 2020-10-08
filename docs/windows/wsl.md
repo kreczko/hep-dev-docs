@@ -33,8 +33,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 wsl --set-default-version 2
 ```
 
-After this is done, you need to install your Linux distribution of choice: Ubuntu 18.04 or 20.04 are recommended.
-This can be done via the Microsoft Store.
+After this is done, you need to install your Linux distribution of choice: Ubuntu 20.04 is recommended.
+This can be done via the [Microsoft Store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab).
 
-Note: CentOS 7 exists in the Microsoft Store, but is not free. Instead, we will use the Ubunutu distribution in combination with Docker
-to provide any OS available as docker image (includes CentOS 6-8).
+**Note**: CentOS 7 exists in the Microsoft Store, but is not free. Instead, we will use the Ubunutu distribution in combination with Docker to provide any OS available as docker image (includes CentOS 6-8).
