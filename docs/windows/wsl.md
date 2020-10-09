@@ -46,7 +46,7 @@ This can be done via the [Microsoft Store](https://www.microsoft.com/en-us/p/ubu
 Due to the tight integration between WSL and Windows, some windows commands are available withing WSL.
 Once such command is
 
-```
+```bash
 explorer.exe .
 ```
 

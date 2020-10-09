@@ -7,4 +7,4 @@ redirect_from:
   - /linux-cpp/
 ---
 
-To be expanded in the future, for now please check the [VSCode C++ on Linux instructions](https://code.visualstudio.com/docs/cpp/config-linux.
+To be expanded in the future, for now please check the [VSCode C++ on Linux instructions](https://code.visualstudio.com/docs/cpp/config-linux).
