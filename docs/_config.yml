@@ -17,11 +17,16 @@ toc_label: HEP-DEV-DOCS
 
 plugins:
  - jekyll-include-cache
+ - jekyll-relative-links
 
 collections:
   docs:
     output: true
     permalink: /:collection/:path/
+
+relative_links:
+  enabled:     true
+  collections: true
 
 defaults:
   - values:
