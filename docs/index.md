@@ -10,8 +10,8 @@ While most HEP software is written for CentOS (6, 7, 8) with a large set of comm
 
 At the moment of writing, these tools include
 
-- [Windows Subsystem for Linux 2](wsl) (Windows 10 only) for FUSE support and a Linux environment
 - [Docker](docker) for running CentOS on any OS
+- [Windows Subsystem for Linux 2](wsl) (Windows 10 only) for Filesystem in Userspace (FUSE) support and a Linux environment
 - CVMFS for access to most HEP depenencies via FUSE + HTTP
 - Anaconda for Python environments (recommended for Python-only code)
 - Editors and Integrated Development Environments

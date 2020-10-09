@@ -5,6 +5,8 @@ last_modified_at: 2020-10-08
 permalink: /windows/wsl/
 ---
 
+## Installation
+
 Since the Windows 10 build version 1903 or higher the Windows Subsystem for Linux 2 (WSL 2) is available.
 The most important improvement for HEP is the FUSE support which allows us to mount the global file system, CVMFS.
 Full installation instructions can be found on the [Official Microsoft Pages](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
@@ -37,3 +39,17 @@ After this is done, you need to install your Linux distribution of choice: Ubunt
 This can be done via the [Microsoft Store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab).
 
 **Note**: CentOS 7 exists in the Microsoft Store, but is not free. Instead, we will use the Ubunutu distribution in combination with Docker to provide any OS available as docker image (includes CentOS 6-8).
+
+
+## Accessing files from WSL inside Windows
+
+Due to the tight integration between WSL and Windows, some windows commands are available withing WSL.
+Once such command is
+
+```
+explorer.exe .
+```
+
+When executed in a folder inside a WSL instance, it will open the current folder in the Windows Explorer as a network mount:
+
+![WSL in windows explorer](../static/windows/wsl_explorer.png)
