@@ -23,7 +23,7 @@ The installation consists of four parts:
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-3. Enablke "Virtual MAchine Platform"
+3. Enable "Virtual MAchine Platform"
 
 ```powershell
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -53,3 +53,5 @@ explorer.exe .
 When executed in a folder inside a WSL instance, it will open the current folder in the Windows Explorer as a network mount:
 
 ![WSL in windows explorer](../static/windows/wsl_explorer.png)
+
+Soon: [Access Linux filessystems in Windows and WSL2](https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/)

@@ -67,6 +67,11 @@ VSCode provides a very good [container tutorial](https://code.visualstudio.com/d
 
 Further information on this topic can be found on the [VSCode Container page](https://code.visualstudio.com/docs/remote/containers).
 
+You might also encounter projects that are already configured to use Docker in VSCode.
+In these cases VSCode will ask you if you want to reopen the project in a container:
+
+![VSCode extensions](../static/editors-and-ides/vscode/vscode_docker_preconfigured.png)
+
 ## Compiling C++
 
 ## Debugging C++
