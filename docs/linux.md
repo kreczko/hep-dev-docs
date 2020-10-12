@@ -2,6 +2,7 @@
 title: "HEP on Linux"
 excerpt: "HEP on Linux"
 last_modified_at: 2020-10-12
+permalink: /linux
 ---
 
 The easiest way to get HEP software development started on Linux is with these two tools:
