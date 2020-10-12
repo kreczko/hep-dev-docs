@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 excerpt: "Overview of High-Energy Physics (Software) Development Documentation"
-last_modified_at: 2020-09-14
+last_modified_at: 2020-10-12
 redirect_from:
   - /overview/
 ---
@@ -20,4 +20,3 @@ Note that depending on the experiment you are on, you might prefer CVMFS install
 instead of the ones provided by a Docker container or OS.
 
 If you find mistakes or want to contribute to the documentation, please submit a pull request on [our GitHub repository](https://github.com/kreczko/hep-dev-docs).
-
