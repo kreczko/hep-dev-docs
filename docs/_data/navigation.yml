@@ -15,7 +15,7 @@ main:
       - title: C++ Development in WSL 2
         url: /windows/cpp
   - title: HEP on MacOS
-    url: /macos/
+    url: /macos
     children:
       - title: Docker on MacOS
         url: /macos/docker
@@ -26,7 +26,7 @@ main:
       - title: C++ Development on MacOS
         url: /macos/cpp
   - title: HEP on Linux
-    url: /linux/
+    url: /linux
     children:
       - title: Docker on Linux
         url: /linux/docker
@@ -37,7 +37,7 @@ main:
       - title: C++ Development on Linux
         url: /linux/cpp
   - title: Editors and Integrated Development Environments
-    url: /editors-and-ides/
+    url: /editors-and-ides
     children:
       - title: Virtual Studio Code
         url: /editors-and-ides/vscode
@@ -46,7 +46,7 @@ main:
       - title: Eclipse
         url: /editors-and-ides/eclipse
   - title: Other useful things
-    url: misc.md
+    url: /misc
     children:
       - title: Better Git Log
         url: /misc/git-log
