@@ -50,3 +50,5 @@ main:
     children:
       - title: Better Git Log
         url: /misc/git-log
+      - title: Conventional Commits
+        url: /misc/conventional-commits
