@@ -1,7 +1,7 @@
 ---
 title: "HEP on macOS"
 excerpt: "HEP on macOS"
-last_modified_at: 2020-10-09
+last_modified_at: 2020-10-12
 ---
 
 The easiest way to get HEP software development started on macOS is with these two tools:
