@@ -16,8 +16,8 @@ Also, as things progress the "best tool for the job" might change - don't force 
 
 These docs will cover three such tools that are available across the major Operating Systems: Linux, macOS and Windows:
 
-- [Atom](https://atom.io/), covered [here](atom)
-- [Eclipse](https://www.eclipse.org/), covered [here](eclipse)
-- [Visual Studio Code](https://code.visualstudio.com/), covered [here](vscode)
+- [Atom](https://atom.io/), covered [here](editors-and-ides/atom)
+- [Eclipse](https://www.eclipse.org/), covered [here](editors-and-ides/eclipse)
+- [Visual Studio Code](https://code.visualstudio.com/), covered [here](editors-and-ides/vscode)
 
 All three examples support more than one programming lanuage and provide additional functionality for debugging code.
