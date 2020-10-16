@@ -72,6 +72,11 @@ In these cases VSCode will ask you if you want to reopen the project in a contai
 
 ![VSCode extensions](../static/editors-and-ides/vscode/vscode_docker_preconfigured.png)
 
+### Test repository
+
+In order to test your VSCode + Docker setup, you can use the [MPAGS test-setup repository](https://github.com/cpp-pg-mpags/test-setup).
+This repository includes a `.devcontainer` folder which will set up
+
 ## Compiling C++
 
 ## Debugging C++
