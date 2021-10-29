@@ -75,7 +75,14 @@ In these cases VSCode will ask you if you want to reopen the project in a contai
 ### Test repository
 
 In order to test your VSCode + Docker setup, you can use the [MPAGS test-setup repository](https://github.com/cpp-pg-mpags/test-setup).
-This repository includes a `.devcontainer` folder which will set up
+This repository includes a `.devcontainer` folder which will set up a C++ development environment for you.
+
+## Formatting
+
+Formatting your code is not only important for readablity (e.g. spacing) but also ease development in collaborative projects.
+In short: if code is always formatted the same way it is easier to traverse and spot important details.
+
+Most languages will provide a configurable way to format the code, e.g. `clang-format` for C++ ([VCode docs](https://code.visualstudio.com/docs/cpp/cpp-ide#_code-formatting)) or `autopep8`/`black` for Python ([VCode docs](https://code.visualstudio.com/docs/python/editing#_formatting)).
 
 ## Compiling C++
 
