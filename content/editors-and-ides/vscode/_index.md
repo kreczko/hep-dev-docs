@@ -4,6 +4,16 @@ excerpt: "Overview of Visual Studio Code"
 last_modified_at: 2020-09-14
 redirect_from:
   - /overview/
+resources:
+  - name: "extensions"
+    src: "vscode_extensions.png"
+    title: "Where to find and install extensions in VSCode"
+  - name: "new_terminal"
+    src: "vscode_new_terminal.png"
+    title: "How to open a new terminal in VSCode"
+  - name: "docker_preconfigured"
+    src: "vscode_docker_preconfigured.png"
+    title: "Dialog for automatic configuration"
 ---
 
 Visual Studio Code (VSCode) is a very versatile Integrated Development Environment (IDE) supporting many programning languages and development tools.
@@ -39,7 +49,8 @@ As such the most useful plugins for VSCode in HEP are:
 
 You can search and install these extensions from within VSCode itself by chaning into the extension tab:
 
-![VSCode extensions](../static/editors-and-ides/vscode/vscode_extensions.png)
+{{<img name="extensions" size="origin">}}
+
 
 ### Windows-only
 
@@ -51,8 +62,7 @@ On Windows you will also need the Windows Subsystem for Linux support extension:
 
 VSCode also provides a simple Terminal to help you execute commands more easily.
 A new terminal can be started by going to the "Terminal" menu item and selecting "New Terminal".
-
-![VSCode extensions](../static/editors-and-ides/vscode/vscode_new_terminal.png)
+{{<img name="new_terminal" size="origin">}}
 
 Next to the "New Terminal" text you will also see the currently configured keyboard shortcut for creating a new terminal.
 
@@ -70,7 +80,7 @@ Further information on this topic can be found on the [VSCode Container page](ht
 You might also encounter projects that are already configured to use Docker in VSCode.
 In these cases VSCode will ask you if you want to reopen the project in a container:
 
-![VSCode extensions](../static/editors-and-ides/vscode/vscode_docker_preconfigured.png)
+{{<img name="docker_preconfigured" size="origin">}}
 
 ### Test repository
 

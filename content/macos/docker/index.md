@@ -5,6 +5,13 @@ excerpt: "How to install Docker on MacOS"
 last_modified_at: 2020-10-08
 redirect_from:
   - /macos-docker/
+resources:
+  - name: "docker_download"
+    src: "docker_download.png"
+    title: "Download Docker Desktop for MacOS"
+  - name: "docker_ps_hello_world"
+    src: "docker_ps_hello_world.png"
+    title: "Test Docker installation"
 ---
 
 Docker is a useful tool to create specific, isolated enviroments on your machine.
@@ -14,7 +21,7 @@ Docker is a useful tool to create specific, isolated enviroments on your machine
 To install Docker, head to the [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) to download
 the latest Community Edition of Docker (stable version).
 
-![Download Docker](../static/macos/docker_download.png)
+{{<img name="docker_download" size="origin">}}
 
 Additional installation help as well as OS requirements for the install are detailed on the [MacOS Docker pages](https://docs.docker.com/docker-for-mac/install/).
 
@@ -30,4 +37,4 @@ docker run hello-world
 
 You should see something similar to:
 
-![Docker PS and hello world output](../static/macos/docker_ps_hello_world.png)
+{{<img name="docker_ps_hello_world" size="origin">}}

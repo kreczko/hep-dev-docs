@@ -3,6 +3,13 @@ title: "Windows Subsystem for Linux 2"
 excerpt: "How to install Windows Subsystem for Linux 2 on Windows 10"
 last_modified_at: 2020-10-08
 permalink: /windows/wsl/
+resources:
+  - name: "powershell"
+    src: "powershell_admin_annotated.png"
+    title: "How to start Powershell with admin rights"
+  - name: "WSL Explorer"
+    src: "wsl_explorer.png"
+    title: "Access files in WSL 2 from Windows Explorer"
 ---
 
 ## Installation
@@ -15,7 +22,8 @@ The installation consists of four parts:
 
 1. Open Powershell with admin rights:
 
-![Open Powershell with admin rights](../static/windows/powershell_admin_annotated.png)
+{{<img name="powershell" size="medium" lazy=false >}}
+
 
 2. Install the Windows Subsystem for Linux:
 
@@ -46,12 +54,12 @@ This can be done via the [Microsoft Store](https://www.microsoft.com/en-us/p/ubu
 Due to the tight integration between WSL and Windows, some windows commands are available withing WSL.
 Once such command is
 
-```bash
+```shell
 explorer.exe .
 ```
+Note: The `.` is very important as it denotes the current folder.
 
 When executed in a folder inside a WSL instance, it will open the current folder in the Windows Explorer as a network mount:
-
-![WSL in windows explorer](../static/windows/wsl_explorer.png)
+{{<img name="WSL Explorer" size="large" lazy=false >}}
 
 Soon: [Access Linux filessystems in Windows and WSL2](https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/)
