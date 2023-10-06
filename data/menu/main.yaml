@@ -1,0 +1,62 @@
+---
+main:
+  - name: HEP on Windows 10
+    ref: "/windows"
+    icon: "gdoc_keyboard_arrow_right"
+    sub:
+      - name: "Windows Subsystem for Linux 2"
+        ref: "/windows/wsl"
+      - name: "Windows Terminal"
+        ref: "/windows/terminal"
+      - name: "Docker"
+        ref: "/windows/docker"
+      - name: "CVMFS on WSL 2"
+        ref: "/windows/cvmfs"
+      - name: "Anaconda Python"
+        ref: "/windows/anaconda"
+      - name: "C++ Development in WSL 2"
+        ref: "/windows/cpp"
+  - name: HEP on MacOS
+    ref: "/macos"
+    icon: "gdoc_keyboard_arrow_right"
+    sub:
+      - name: "Docker"
+        ref: "/macos/docker"
+      - name: "CVMFS"
+        ref: "/macos/cvmfs"
+      - name: "Anaconda Python"
+        ref: "/macos/anaconda"
+      - name: "C++ Development"
+        ref: "/macos/cpp"
+  - name: HEP on Linux
+    ref: "/linux"
+    icon: "gdoc_keyboard_arrow_right"
+    sub:
+      - name: "Docker"
+        ref: "/linux/docker"
+      - name: "CVMFS"
+        ref: "/linux/cvmfs"
+      - name: "Anaconda Python"
+        ref: "/linux/anaconda"
+      - name: "C++ Development"
+        ref: "/linux/cpp"
+  - name: Editors and Integrated Development Environments
+    ref: "/editors-and-ides"
+    icon: "gdoc_keyboard_arrow_right"
+    sub:
+      - name: "Visual Studio Code"
+        ref: "/editors-and-ides/vscode/"
+      - name: "Eclipse"
+        ref: "/editors-and-ides/eclipse"
+      - name: "Atom"
+        ref: "/editors-and-ides/atom"
+      - name: "Terminal Editors"
+        ref: "/editors-and-ides/terminal-editors"
+  - name: "Other useful things"
+    ref: "/misc"
+    icon: "gdoc_keyboard_arrow_right"
+    sub:
+      - name: Better Git log
+        ref: "/misc/git-log"
+      - name: "Conventional Commits"
+        ref: "/misc/conventional-commits"
