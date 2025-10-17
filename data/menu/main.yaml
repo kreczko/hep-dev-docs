@@ -1,6 +1,6 @@
 ---
 main:
-  - name: HEP on Windows 10
+  - name: HEP on Windows 11
     ref: "/windows"
     icon: "gdoc_keyboard_arrow_right"
     sub:
