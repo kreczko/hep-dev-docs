@@ -18,7 +18,7 @@ resources:
 ---
 
 Docker is a useful tool to create specific, isolated enviroments on your machine.
-On Windows 10, Docker can run within the [WSL 2](wsl) setup thus providing you with a solid Docker-on-Linux experience.
+On Windows 10 and 11, Docker can run within the [WSL 2](wsl) setup thus providing you with a solid Docker-on-Linux experience.
 The latter means it is easy to share files and ports between the Linux OS and the Docker images.
 It also allows you to make full use of all the Docker image and Docker Compose examples (i.e. no special Windows treatment).
 
@@ -29,7 +29,7 @@ the latest Community Edition of Docker (stable version).
 
 {{<img name="download" size="origin">}}
 
-You will need at least Docker version 2.3.0.2 and Windows 10 version 2004 or higher for all the features discussed on these pages. Please make sure to install WSL 2 _before_ installing Docker. If everything is setup correctly, you should see the following during the Docker installation:
+You will need at Docker version &geq; 2.3.0.2 and Windows 10 version 2004 or higher for all the features discussed on these pages. Please make sure to install WSL and start it up _before_ installing Docker. If everything is setup correctly, you should see the following during the Docker installation:
 
 {{<img name="docker_install" size="origin">}}
 
@@ -40,7 +40,7 @@ Additional installation help as well as OS requirements for the install are deta
 
 ## Checking the installation
 
-In order to verify, open your Ubuntu WSL 2 terminal and type
+In order to verify, open your Ubuntu WSL terminal and type
 
 ```bash
 docker ps

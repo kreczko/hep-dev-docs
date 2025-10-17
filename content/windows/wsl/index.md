@@ -1,7 +1,7 @@
 ---
-title: "Windows Subsystem for Linux 2"
-excerpt: "How to install Windows Subsystem for Linux 2 on Windows 10"
-last_modified_at: 2020-10-08
+title: "Windows Subsystem for Linux"
+excerpt: "How to install Windows Subsystem for Linux on Windows 11"
+last_modified_at: 2025-10-17
 permalink: /windows/wsl/
 resources:
   - name: "powershell"
@@ -9,14 +9,14 @@ resources:
     title: "How to start Powershell with admin rights"
   - name: "WSL Explorer"
     src: "wsl_explorer.png"
-    title: "Access files in WSL 2 from Windows Explorer"
+    title: "Access files in WSL from Windows Explorer"
 ---
 
 ## Installation
 
-Since the Windows 10 build version 1903 or higher the Windows Subsystem for Linux 2 (WSL 2) is available.
+Since the Windows 10 build version 1903 or higher the Windows Subsystem for Linux version 2 is available.
 The most important improvement for HEP is the FUSE support which allows us to mount the global file system, CVMFS.
-Full installation instructions can be found on the [Official Microsoft Pages](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+Full installation instructions can be found on the [Official Microsoft Pages](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 The installation consists of four parts:
 
@@ -28,25 +28,23 @@ The installation consists of four parts:
 2. Install the Windows Subsystem for Linux:
 
 ```powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+wsl --install
 ```
 
-3. Enable "Virtual MAchine Platform"
+3. Optional: Change the default Linux distribution
+By default, the installed Linux distribution will be Ubuntu. 
+This is fine for most use-cases as you can refine your choice with containers (e.g. CentOS, RockyLinux, etc).
 
-```powershell
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+On how to change it, please refer to the [Microsoft Documentation - change the default Linux distribution](https://learn.microsoft.com/en-us/windows/wsl/install#change-the-default-linux-distribution-installed).
 
-4. Set WSL 2 as your default version:
+4. Start up WSL for the very first time
+After the installation is complete, you need to start WSL for the first time.
+You can do this by starting the installed Linux distribution from the start menu.
 
-```powershell
-wsl --set-default-version 2
-```
-
-After this is done, you need to install your Linux distribution of choice: Ubuntu 20.04 is recommended.
-This can be done via the [Microsoft Store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab).
-
-**Note**: CentOS 7 exists in the Microsoft Store, but is not free. Instead, we will use the Ubunutu distribution in combination with Docker to provide any OS available as docker image (includes CentOS 6-8).
+The first start will take a bit longer as the Linux distribution needs to be set up.
+You will be asked to create a user account and password for the Linux distribution.
+If you are regularly using WSL to access remote systems via SSH, it is recommended to use the same username as on the remote systems.
+Please set a strong password as well.
 
 
 ## Accessing files from WSL inside Windows
