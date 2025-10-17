@@ -29,3 +29,6 @@ geekdocMenuBundle = true
 geekdocCollapseAllSections = false
 geekdocNextPrev = true
 geekdocImageLazyLoading = true
+geekdocRepo = "https://github.com/kreczko/hep-dev-docs/"
+geekdocEditPath = "edit/main/"
+geekdocSearchShowParent = true
